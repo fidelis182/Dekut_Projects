@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+section {
+  width: auto;
+  height: auto;
+}
+h1 {
+  text-align: center;
+  color: #ffd700;
+  font-size: 24px;
+  background-color: green;
+  height: 60px;
+}
+h2 {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  position: relative;
+  width: 40%;
+  height: 50px;
+  margin-left: 30%;
+  top: 40px;
+}
+p {
+  margin-top: 80px;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+.steps {
+  width: 25%;
+  float: left;
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.card {
+  width: 75%;
+  height: 170px;
+  background-color: #ffd700;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 10px;
+  justify-content: center;
+}
+.card p {
+  font-size: 35px;
+  color: green;
+  font-weight: bold;
+  line-height: 30px;
+  padding-left: 10px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.card p span {
+  font-size: 20px;
+  font-weight: 400;
+  color: #818181;
+}
+.card-icon {
+  font-size: 40px !important;
+  float: right;
+  margin-top: 35px !important;
+  color: #818181;
+  padding-right: 10px;
+}
